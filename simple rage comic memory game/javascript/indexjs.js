@@ -74,6 +74,11 @@ function getRandomInt(max) {
 
 
 function newGame(buttonpushed) {
+	var imgElementToReset = document.getElementsByClassName('image');
+	for(var i=0; i<imgElementToReset.length; i++){
+		imgElementToReset[i].style.opacity = 1;
+	}
+		
     numOfClicks = 0;
     document.getElementById("leftBoxContent").innerHTML = "Number of clicks: " + numOfClicks;
     numOfOpenedCards = 0;
