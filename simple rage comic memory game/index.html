@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Rage Comics Memory Game </title>
+      <link rel="stylesheet" href="stylesheet/index-stylesheet.css">
+      <script src="javascript/indexjs.js"></script>
+      <!--formatted with https://www.cleancss.com/css-beautify/ -->
+   </head>
+   <body>
+      <h1>Rage Comics Meme Memory Game</h1>
+      <div id=content>
+         <div class="left-box">
+            <p id="leftBoxContent">Number of clicks: 0</p>
+         </div>
+         <div div class="middle-box">
+            <table id="gametable">
+               <tr>
+                  <th><img src="images/cards/cardback.jpg" id="image0" class="image" alt="playingCard" onclick="changeImage('image0')"></th>
+                  <th><img src="images/cards/cardback.jpg" id="image1" class="image" alt="playingCard" onclick="changeImage('image1')"></th>
+                  <th><img src="images/cards/cardback.jpg" id="image2" class="image" alt="playingCard" onclick="changeImage('image2')"></th>
+                  <th><img src="images/cards/cardback.jpg" id="image3" class="image" alt="playingCard" onclick="changeImage('image3')"></th>
+               </tr>
+               <tr>
+                  <th><img src="images/cards/cardback.jpg" id="image4" class="image" alt="playingCard" onclick="changeImage('image4')"></th>
+                  <th><img src="images/cards/cardback.jpg" id="image5" class="image" alt="playingCard" onclick="changeImage('image5')"></th>
+                  <th><img src="images/cards/cardback.jpg" id="image6" class="image" alt="playingCard" onclick="changeImage('image6')"></th>
+                  <th><img src="images/cards/cardback.jpg" id="image7" class="image" alt="playingCard" onclick="changeImage('image7')"></th>
+               </tr>
+               <tr>
+                  <th><img src="images/cards/cardback.jpg" id="image8" class="image" alt="playingCard" onclick="changeImage('image8')"></th>
+                  <th><img src="images/cards/cardback.jpg" id="image9" class="image" alt="playingCard" onclick="changeImage('image9')"></th>
+                  <th><img src="images/cards/cardback.jpg" id="image10" class="image" alt="playingCard" onclick="changeImage('image10')"></th>
+                  <th><img src="images/cards/cardback.jpg" id="image11" class="image" alt="playingCard" onclick="changeImage('image11')"></th>
+               </tr>
+               <tr>
+                  <th><img src="images/cards/cardback.jpg" id="image12" class="image" alt="playingCard" onclick="changeImage('image12')"></th>
+                  <th><img src="images/cards/cardback.jpg" id="image13" class="image" alt="playingCard" onclick="changeImage('image13')"></th>
+                  <th><img src="images/cards/cardback.jpg" id="image14" class="image" alt="playingCard" onclick="changeImage('image14')"></th>
+                  <th><img src="images/cards/cardback.jpg" id="image15" class="image" alt="playingCard" onclick="changeImage('image15')"></th>
+               </tr>
+            </table>
+         </div>
+         <div class="right-box">
+            <p>to do list</p>
+            <ul>
+               <li>count the num of clicks</li>
+               <li>signs the end of game</li>
+               <li>clean the code</li>
+               <li>folder structure</li>
+               <li>css and js to external files</li>
+            </ul>
+			
+			<p>needs to fix:</p>
+			 <ul>
+               <li>fade to gray right after finding pair</li>
+            </ul>
+         </div>
+      </div>
+      <button type="button" class="button" onclick="newGame(true)">New Game</button>
+   </body>
+</html>

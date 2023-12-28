@@ -1,0 +1,54 @@
+body{
+     background-color: black;
+     border: none;
+}
+ .image {
+     width: 230px;
+     height: 270px;
+     border-radius: 10px;
+	 margin: 1px;
+}
+ #gametable {
+     padding-top: 20px;
+}
+ #content{
+     margin:0 auto;
+     width: 1000px;
+}
+ h1 {
+     text-align: center;
+     color: white;
+}
+ .button {
+     background-color: #520000;
+     color: white;
+     padding: 15px 32px;
+     font-weight: 700;
+     font-size: 18px;
+     position: absolute;
+     border-radius: 25px;
+     border: none;
+     margin: 7px -5px;
+     cursor: pointer;
+     left: 46%;
+}
+ #content{
+     display: flex;
+}
+ .left-box{
+     color: white;
+     position: absolute;
+     left: 30px;
+     font-size: large;
+}
+ .middle-box {
+     position: relative;
+}
+ .right-box {
+     color: white;
+     position: absolute;
+     left: 82%;
+     font-size: large;
+}
+
+/* formatted with https://www.cleancss.com/css-beautify/ */
